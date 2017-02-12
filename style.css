@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+#carousel {
+width: 400px;
+height: 300px;
+margin: 0 auto;
+  border: 3px solid #424242;
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  width: 2000px;
+}
+
+ul li {
+  width: 400px;
+  list-style-type: none;
+  float: left;
+}
